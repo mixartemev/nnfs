@@ -13,7 +13,7 @@ def go(h, r, a):
     print("3 input neurons sum: "+str(out))
 
     y = act(out)
-    print("Выходное значение НС: "+str(y))
+    print("result: "+str(y))
 
     return y
 
@@ -25,6 +25,6 @@ attr = 1
 res = go(house, rock, attr)
 
 if res == 1:
-    print("Ты мне нравишься")
-else:
-    print("Созвонимся")
+    print("Come in tiger")
+elif res == 0:
+    print("Get out from here looser")
